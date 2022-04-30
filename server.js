@@ -9,4 +9,5 @@ app.get('/index', (req,res) => {
     res.render('pages/index');
 })
 
+
 app.listen(3000, () => console.log('Server started'))
