@@ -3,7 +3,7 @@ const { route } = require('.');
 const router = express.Router();
 
 router.get('/character', (req,res) => {
-    res.render('pages/index');
+    res.render('pages/characters');
 })
 
 router.get('/character/create', (req,res) => {

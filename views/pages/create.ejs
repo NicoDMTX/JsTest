@@ -1,5 +1,11 @@
 <%- include('../partials/head'); %>
 
 <%- include('../partials/header'); %>
-    
+    <form action="" method="post" class="form-create-character">
+        <div class="form-container">
+            <label for="name" class="create-character-label">Enter your name: </label>
+            <input type="text" name="name" class="create-character-input" id="name" required>
+            <input type="submit" value="Create">
+        </div>
+    </form>
 <%- include('../partials/footer'); %>
